@@ -1,0 +1,314 @@
+*{
+   
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;}
+    
+    .navbar{
+        background-color: #131921;
+        height: 60px;
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+        align-items: center;
+        
+       
+        
+     
+    }
+    .body{
+        background-color: #e2e7e6;
+    }
+    
+    /** Box1**/
+    
+   
+       
+        
+    
+    .lol{
+        color: white;
+    }
+    /** Box 2**/
+.address1{
+    color: #ccc;
+    font-size: 1rem;
+
+}
+.address2{
+font-size: 1rem;
+}
+.add-me{
+    
+    
+}
+
+    
+    
+   
+
+
+.border{
+    border: 0.85px solid transparent;
+    height: 80%;
+    
+}
+.border:hover{
+   border: 0.85px solid white;
+}
+/**Box3**/
+.search-bar{
+    height: 40px;
+   
+   
+   
+    width:65%;
+    display: flex;
+   align-items: center;
+  
+    
+    justify-content: space-evenly;
+  }
+  .search-bar:hover{
+    border: 2px solid orange;
+   
+   
+  }
+.search-icon{
+    display: flex;
+    background-color: orange;
+    color: #131921;
+    width: 45px;
+    height: 38px;
+    
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+outline: 0;
+border: 0;
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+font-size: 1.2rem;
+
+   
+   
+    
+}
+.place{
+
+  width: 100%;
+  height: 21px;
+  padding: 7px 10px 10px 0;
+  border: 0;
+  margin: 0; 
+  font-size: 1rem;
+  
+}
+.all{
+  
+    width: 45px;
+    height: 38px;
+    padding-left: 5px;
+    border: 1px;
+ text-align: center;
+ background-color: #f3f3f3;
+ border-top-left-radius: 4px;
+ border-bottom-left-radius: 4px;
+    
+}
+/**box4**/
+.signin{
+
+}
+.nav-first{
+    font-size: 0.7rem;
+    margin-top: 9px;
+    
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/**cart**/
+.cart{
+    display: flex;
+    align-items: center;
+    margin-right: 11px;
+    
+}
+
+.cart>i{
+    font-size: 1.5rem;
+}
+
+
+
+.cart-text{
+    font-size: 0.85rem;
+    margin-top: 11px;
+
+}
+/**Sub-bar**/
+.sub-bar{
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: space-evenly;
+align-items: center;
+   
+}
+
+
+.ham-text{
+    display: flex;
+    align-items: center;
+}
+.hero-section{
+    background-color: #e2e7e6;
+    height: 400px;
+    background-image:url("hero_image.jpg");
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+  
+}
+
+.Box{
+   
+    height: 400px;
+    
+   width: 300px;
+   background-color: white;
+   padding: 20px 20px 15px;
+   
+}
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+background-color: #e2e7e6;
+justify-content: space-evenly;
+
+
+  }
+  .hero-msg{
+    background-color: white;
+    height: 40px;
+    width: 80%;
+    color: #131921;
+    display: flex;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-msg a{
+    color: #007185;
+  }
+.box-text{
+    height: 300px;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+}
+.box-content{
+    margin-top: 30px;
+    
+}
+.see{
+    margin-top: 15px;
+    color: #007185;
+}
+.shop-section-2{
+ width: 88.5%;
+
+ height: 280px;
+ background-color: white;
+ margin: 30px;}
+ 
+ .shop-container{
+display: flex;
+
+justify-content:left;
+
+margin-top: 25px;
+overflow: scroll;
+padding-left: 10px;
+}
+
+ 
+
+.second-text{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 5px;
+    
+}
+.seewatch{
+    padding-left: 15px;
+    color: #007185;
+}
+
+
+.train-cover{
+   
+   
+
+height: 400px;
+width: 100%;
+
+background-color: #e2e7e6;
+
+ 
+}
+.train{
+    
+    background-color: white;
+    width: 88.5%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+  
+}
+.poster{
+    height: 300px;
+    width: 100%;
+    padding: 20px;
+   
+    
+}
+.mobile-section{
+    background-color: #e2e7e6;
+    width: 100%;
+    display: flex;
+    
+    height: 400px;
+}
+.mobiles{
+    height: 300px;
+    background-color: white;
+    width: 88.5%;
+   margin-left: 109px;
+   overflow-x: scroll;
+   overflow-y: hidden;
+ 
+ 
+  
+}
+.mob-img{
+  padding: 35px;
+
+ 
+}
+.mob-head{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+   
+
+
